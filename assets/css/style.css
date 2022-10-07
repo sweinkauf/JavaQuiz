@@ -1,8 +1,59 @@
 :root {
-    margin: 20px, 20px, 20px, 20px;
+    background-color: darkolivegreen;
+    font-size: 62.5%;
+}
+* {
+    box-sizing: border-box;
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+    color: darkkhaki;
+
 }
 
 .title {
+    font-size: 9rem;
+}
+
+p {
+    font-size:3rem;
+    padding: 1rem;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    font-size: 2rem;
+    padding: 1rem 0;
+    width: 20rem;
     text-align: center;
+    border: 0.1rem solid darkkhaki;
+    margin-bottom: 1rem;
+    text-decoration: none;
     color: darkkhaki;
+    background-color: darkslategrey;
+}
+
+.btn:hover {
+    cursor: hand;
+    box-shadow: 0 0.4rem 0 darkslategray;
+    transform: translateY(-0.1rem);
 }

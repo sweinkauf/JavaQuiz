@@ -1,0 +1,8 @@
+.choice-container {
+    display: flex;
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+    width: 100%;
+    border: 0.1rem solid darkkhaki;
+    background-color: darkslategrey;
+}

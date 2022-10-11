@@ -1,8 +1,24 @@
 .choice-container {
     display: flex;
     margin-bottom: 0.5rem;
-    font-size: 2rem;
     width: 100%;
+    font-size: 1.8rem;
     border: 0.1rem solid darkkhaki;
     background-color: darkslategrey;
+}
+
+.choice-container:hover {
+    cursor: hand;
+    box-shadow: 0 0.4rem 0 darkslategray;
+    transform: translateY(-0.1rem);
+}
+
+.choice-prefix {
+    padding: 1.5rem 2.5rem;
+    background-color: antiquewhite;
+    color: darkolivegreen;
+}
+
+.choice-text {
+    padding: 1.5rem;
 }

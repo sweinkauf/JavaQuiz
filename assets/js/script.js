@@ -1,1 +1,0 @@
-// TODO: Start Button, Questions, right, wrong, timer, high score page

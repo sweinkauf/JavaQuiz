@@ -4,9 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>☕️JAVAQUIZ☕️ 🏆High Score🏆</title>
+    <title>🏆High Scores🏆</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    <h1>🏆High Score🏆</h1>
+    <header>🏆High Scores🏆</header>
+    <div class="container">
+        <div id="highscore" class="flex-center flex-column">
+           <h1 id="finalScore">0</h1>
+           <form>
+            <input type="text" name="username" id="username" placeholder="username">
+            <button type="submit" class="btn" id="saveScoreBtn" onclick="saveHighScore(event)" disabled>save</button>
+           </form>
+           <a class="btn" href="./game.html">Play Again?</a>
+           <a class="btn" href="./index.html">Home Page</a>
+        </div>
+    </div>
+    <script src="./assets/js/highscore.js"></script>
 </body>
 </html>

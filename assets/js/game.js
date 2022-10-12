@@ -50,7 +50,7 @@ function getNewQuestion() {
     if (questions.length === 0 || questionCounter >= MAX_QUESTIONS) {
         localStorage.setItem("recentScore", score);
 
-        return window.location.assign("/highscore.html")
+        return window.location.assign("/finalscore.html")
     } 
 
     questionCounter++;

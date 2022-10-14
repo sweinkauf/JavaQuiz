@@ -21,10 +21,10 @@ var questions = [
     },
     {
         question: "What is the correct syntax for referring to an external script called 'game.js'",
-        choice1: "<script href='game.js'",
-        choice2: "<link href='game.js'",
-        choice3: "<script link='game.js'",
-        choice4: "<script src='gmae.js'",
+        choice1: "<script href='game.js'>",
+        choice2: "<link href='game.js'>",
+        choice3: "<script link='game.js'>",
+        choice4: "<script src='game.js'>",
         answer: 4
     },
     {
@@ -50,7 +50,7 @@ function getNewQuestion() {
     if (questions.length === 0 || questionCounter >= MAX_QUESTIONS) {
         localStorage.setItem("recentScore", score);
 
-        return window.location.assign("pages/finalscore.html")
+        return window.location.assign("finalscore.html")
     } 
 
     questionCounter++;
